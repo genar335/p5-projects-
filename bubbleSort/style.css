@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+}
+
+#clearBtn {
+  margin: auto;
+  height: 5em;
+  width: 10em;
+  background: chartreuse;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#mainCanvas {
+  margin: auto;
+}
